@@ -23,7 +23,7 @@ username = args.username
 acc_file = args.file
 
 if username == "" :
-	username = input("Username: ")
+	username = input("Username:quo7te")
 
 a = open(acc_file, "r").readlines()
 file = [s.rstrip()for s in a]
