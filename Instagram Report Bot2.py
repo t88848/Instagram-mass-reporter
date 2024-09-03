@@ -43,11 +43,11 @@ for line in range(len(file)+1):
     web = Browser()
     web.go_to("https://www.instagram.com/accounts/login/")
 
-    web.type(user[line], into='Phone number, username, or email')
+    web.type(user[line], into='flarm06@gmail.com')
     time.sleep(0.5)
     web.press(web.Key.TAB)
     time.sleep(0.5)
-    web.type(passw[line], into='Password')
+    web.type(passw[line], into='Grimboide06')
     web.press(web.Key.ENTER)
 
     time.sleep(2.0)
